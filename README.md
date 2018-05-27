@@ -42,7 +42,7 @@ Then start a new session and deploy the smart contract to your local testnet:
 $ deploy:local
 ```
 
-You can now connect an Ethereum client such as MetaMask to your local testnet at `http://localhost:8545` and interact with your smart contract.
+You can now connect an Ethereum client such as MetaMask or MyEtherWallet to your local testnet at `http://localhost:8545` and interact with your smart contract.
 
 ## Deploy
 
