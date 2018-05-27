@@ -17,7 +17,9 @@ module.exports = {
     },
     mainnet: {
       provider: () => new HDWalletProvider(mnemonic, `https://mainnet.infura.io/${token}`),
-      network_id: 1
+      network_id: 1,
+      gas: 2000000,
+      gasPrice: 8000000000
     }
   }
 };
