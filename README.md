@@ -65,10 +65,10 @@ $ deploy:testnet
 
 ### Deploy to Mainnet
 
-Deploy the smart contract to the main Ethereum mainnet:
+Deploy the smart contract to the main Ethereum network:
 
 ```
-$ deploy:testnet
+$ deploy:mainnet
 ```
 
 > **Warning:** Deployment to mainnet will pay gas costs from the first address derived from your mnemonic.
