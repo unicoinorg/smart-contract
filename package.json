@@ -22,10 +22,12 @@
 		"test": "yarn build:clean && truffle test"
 	},
 	"devDependencies": {
+		"dotenv": "^5.0.1",
 		"ganache-cli": "^6.1.0",
 		"number-words": "^1.0.6",
 		"rimraf": "^2.6.2",
-		"truffle": "^4.1.11"
+		"truffle": "^4.1.11",
+		"truffle-hdwallet-provider": "^0.0.5"
 	},
 	"dependencies": {
 		"openzeppelin-solidity": "1.9.0"
