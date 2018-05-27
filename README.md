@@ -61,6 +61,8 @@ Deploy the smart contract to the Ethereum Ropsten test network:
 $ deploy:testnet
 ```
 
+> **Tip:** You will need to obtain some free testnet Ether from a faucet before you can deploy.
+
 ### Deploy to Mainnet
 
 Deploy the smart contract to the main Ethereum mainnet:
@@ -69,6 +71,7 @@ Deploy the smart contract to the main Ethereum mainnet:
 $ deploy:testnet
 ```
 
+> **Warning:** Deployment to mainnet will pay gas costs from the first address derived from your mnemonic.
 
 ## License
 
