@@ -18,7 +18,7 @@
 		"deploy": "truffle migrate",
 		"deploy:local": "yarn deploy --network development",
 		"deploy:testnet": "yarn deploy --network ropsten",
-		"deploy:mainnet": "yarn deploy --network live",
+		"deploy:mainnet": "yarn deploy --network mainnet",
 		"test": "yarn build:clean && truffle test"
 	},
 	"devDependencies": {
