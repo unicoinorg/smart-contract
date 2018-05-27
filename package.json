@@ -1,7 +1,7 @@
 {
 	"name": "unicoin-smart-contract",
 	"version": "1.0.0",
-	"description": "🦄 Unicoin ERC20 Token Smart Contract",
+	"description": "🦄 Unicoin (MYTH) ERC20 Token Smart Contract",
 	"repository": "unicoinorg/smart-contract",
 	"author": {
 		"name": "Luke Childs",
