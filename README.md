@@ -28,7 +28,7 @@ $ yarn test
 
 The tests will automatically connect to the local testnet.
 
-### Deploy Locally
+### Debug
 
 Run a local Ethereum testnet:
 
