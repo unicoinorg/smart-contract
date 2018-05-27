@@ -1,7 +1,8 @@
 language: node_js
 node_js: '8'
-before_script: yarn ethereum &
+before_script: yarn ethereum > /tmp/ethlog &
 script: yarn test
+after_success: cat /tmp/ethlog
 notifications:
   email:
     on_success: never
