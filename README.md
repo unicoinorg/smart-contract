@@ -2,7 +2,7 @@
 
 > 🦄 Unicoin (MYTH) ERC20 Token Smart Contract
 
-[![Build Status](https://travis-ci.com/unicoinorg/smart-contract.svg?branch=master)](https://travis-ci.com/unicoinorg/smart-contract)
+[![Build Status](https://travis-ci.com/unicoinorg/unicoin-smart-contract.svg?branch=master)](https://travis-ci.com/unicoinorg/unicoin-smart-contract)
 
 ## Dev
 
