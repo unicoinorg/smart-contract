@@ -19,6 +19,7 @@
 		"deploy:local": "yarn deploy --network development",
 		"deploy:testnet": "yarn deploy --network ropsten",
 		"deploy:mainnet": "yarn deploy --network mainnet",
+		"flatten": "truffle-flattener",
 		"test": "yarn build:clean && truffle test"
 	},
 	"devDependencies": {
@@ -27,6 +28,7 @@
 		"number-words": "^1.0.6",
 		"rimraf": "^2.6.2",
 		"truffle": "^4.1.11",
+		"truffle-flattener": "^1.2.5",
 		"truffle-hdwallet-provider": "^0.0.5"
 	},
 	"dependencies": {
