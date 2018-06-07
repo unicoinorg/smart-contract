@@ -73,6 +73,16 @@ $ deploy:mainnet
 
 > **Warning:** Deployment to mainnet will pay gas costs from the first address derived from your mnemonic.
 
+## Flatten
+
+Concat Solidity files with all of their dependencies:
+
+```
+$ yarn flatten contracts/UnicoinToken.sol
+```
+
+Helps you to verify your contract on [Etherscan](https://etherscan.io), or debug it on [Remix](https://remix.ethereum.org), by merging your files and their dependencies in the right order.
+
 ## License
 
 MIT © Luke Childs
