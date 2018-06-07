@@ -39,7 +39,7 @@ $ yarn ethereum
 Then start a new session and deploy the smart contract to your local testnet:
 
 ```
-$ deploy:local
+$ yarn deploy:local
 ```
 
 You can now connect an Ethereum client such as MetaMask or MyEtherWallet to your local testnet at `http://localhost:8545` and interact with your smart contract.
@@ -58,7 +58,7 @@ INFURA_TOKEN="9NdhEXkpSFjE4DSBwX3s"
 Deploy the smart contract to the Ethereum Ropsten test network:
 
 ```
-$ deploy:testnet
+$ yarn deploy:testnet
 ```
 
 > **Tip:** You will need to obtain some free testnet Ether from a faucet before you can deploy.
@@ -68,7 +68,7 @@ $ deploy:testnet
 Deploy the smart contract to the main Ethereum network:
 
 ```
-$ deploy:mainnet
+$ yarn deploy:mainnet
 ```
 
 > **Warning:** Deployment to mainnet will pay gas costs from the first address derived from your mnemonic.
